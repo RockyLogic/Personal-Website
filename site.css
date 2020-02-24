@@ -1,12 +1,13 @@
 body {
     background-color: rgb(46, 35, 43);
     color: white;
+    margin: 0;
 }
 
-.intro {
+.introduction {
     text-align: center;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     padding-top: 150px;
 }
 
@@ -53,4 +54,10 @@ body {
     background-color: white;
     width: 100%;
     height: 100%;
+    color: black;
+}
+
+.aboutTitle {
+    color: black;
+    font-size: 2rem;
 }
