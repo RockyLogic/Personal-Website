@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(46, 35, 43);
+    color: white;
+}
+
+.intro{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 150px;
+}
+
+.profileImage{
+    border-color: white;
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    
+}
+
+.title{
+    font-size: 3rem;
+}
+
+.subtitle{
+    font-size: 2rem;
+    color: rgb(134, 134, 134);
+    margin: 0px;
+}
