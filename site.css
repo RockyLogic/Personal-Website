@@ -1,29 +1,56 @@
-body{
+body {
     background-color: rgb(46, 35, 43);
     color: white;
 }
 
-.intro{
+.intro {
     text-align: center;
     width: 100%;
     height: 100%;
     padding-top: 150px;
 }
 
-.profileImage{
+.profileImage {
     border-color: white;
     border-radius: 100px;
     height: 200px;
     width: 200px;
-    
 }
 
-.title{
+.title {
     font-size: 3rem;
 }
 
-.subtitle{
+.subtitle {
     font-size: 2rem;
     color: rgb(134, 134, 134);
     margin: 0px;
+}
+
+.subtitleLinksGroup {
+    padding: 1% 0%;
+}
+
+.subtitleLinks {
+    font-size: 1.5rem;
+    color: rgb(134, 134, 134);
+    vertical-align: middle;
+    text-align: center;
+    margin: 0px .5%;
+}
+
+.subtitleLinks:link {
+    color: rgb(134, 134, 134);
+    text-decoration: none;
+}
+
+.subtitleLinks:link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.about {
+    background-color: white;
+    width: 100%;
+    height: 100%;
 }
