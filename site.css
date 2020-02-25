@@ -8,7 +8,7 @@ body {
     text-align: center;
     width: 100%;
     height: 100vh;
-    padding-top: 150px;
+    padding-top: 250px;
 }
 
 .profileImage {
@@ -40,12 +40,12 @@ body {
     margin: 0px .5%;
 }
 
-.subtitleLinks:link {
+.subtitleLinks:link, .subtitleLinks:active, .subtitleLinks:visited {
     color: rgb(134, 134, 134);
     text-decoration: none;
 }
 
-.subtitleLinks:link:hover {
+.subtitleLinks:hover {
     color: white;
     text-decoration: none;
 }
@@ -53,7 +53,7 @@ body {
 .about {
     background-color: white;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     color: black;
 }
 
