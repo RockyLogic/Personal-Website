@@ -1,11 +1,12 @@
-body{
+body {
     margin: 0;
 }
 
-.navTabs:hover{
+.navTabs:hover {
     background-color: rgb(42, 42, 42);
 }
-.introduction{
+
+.introduction {
     display: flex;
     align-items: center;
     background: rgb(46, 35, 43);
@@ -18,7 +19,7 @@ body{
     font-size: 4rem;
     color: rgb(134, 134, 134);
     text-align: center;
-    margin:auto;
+    margin: auto;
 }
 
 .profileImage {
@@ -29,7 +30,7 @@ body{
     border: 3px solid white;
 }
 
-.subtitle{
+.subtitle {
     font-size: 2rem;
     margin: 0px;
 }
@@ -67,7 +68,7 @@ body{
 
 .aboutContent {
     padding-top: 10%;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     font-size: 16px;
 }
 
@@ -82,30 +83,34 @@ body{
     margin-right: 0.5%
 }
 
-.aboutLinks:hover{
+.aboutLinks:hover {
     color: rgb(128, 3, 3);
 }
+
 .aboutFooter {
     display: inline;
     vertical-align: middle;
 }
 
-.aboutFooterSocials{
+.aboutFooterSocials {
     margin-top: 60px;
 }
-.titleHR{
+
+.titleHR {
     width: 25%;
 }
 
-.profolioHR{
+.profolioHR {
     padding-bottom: 5%;
 }
 
 .polaroid {
-    width: 250px;
+    width: 400px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
 }
-.container {
-  padding: 10px;
+
+.polaroidDiscription {
+    padding: 10px;
+    background-color: black;
 }
