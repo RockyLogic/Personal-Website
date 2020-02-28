@@ -1,14 +1,20 @@
-body {
-    background-color: rgb(46, 35, 43);
-    color: white;
+body{
     margin: 0;
 }
 
-.introduction {
-    text-align: center;
-    width: 100%;
+.introduction{
+    display: flex;
+    align-items: center;
+    background: rgb(46, 35, 43);
     height: 100vh;
-    margin: auto;
+    width: 100%;
+}
+
+.title {
+    font-size: 4rem;
+    color: rgb(134, 134, 134);
+    text-align: center;
+    margin:auto;
 }
 
 .profileImage {
@@ -19,19 +25,9 @@ body {
     border: 5px solid white;
 }
 
-.title {
-    font-size: 3rem;
-    margin: auto;
-}
-
-.subtitle {
+.subtitle{
     font-size: 2rem;
-    color: rgb(134, 134, 134);
     margin: 0px;
-}
-
-.subtitleLinksGroup {
-    padding: 1% 0%;
 }
 
 .subtitleLinks {
@@ -84,12 +80,4 @@ body {
 .aboutFooter {
     display: inline;
     vertical-align: middle;
-}
-
-.maxheight {
-    height: 100vh;
-}
-
-.centre {
-    margin: auto;
 }
