@@ -22,7 +22,6 @@ body {
 .title {
     font-size: 3rem;
     margin: auto;
-    text-align: center;
 }
 
 .subtitle {
@@ -85,4 +84,12 @@ body {
 .aboutFooter {
     display: inline;
     vertical-align: middle;
+}
+
+.maxheight {
+    height: 100vh;
+}
+
+.centre {
+    margin: auto;
 }
