@@ -115,10 +115,13 @@ body {
 .polaroid {
     width: 400px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     display: inline-block;
 }
 
+.polaroid:hover{
+    box-shadow: 0px 0px 5px 4px rgb(76, 185, 105);
+}
 .polaroidDiscription {
     height: 100px;
     padding: 10px 30px;
