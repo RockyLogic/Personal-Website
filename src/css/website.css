@@ -118,6 +118,12 @@ body {
     text-align: center;
 }
 
+.portfolioLinks,
+.portfolioLinks:link,
+.portfolioLinks:active,
+.portfolioLinks:visited{
+    color: black;
+}
 .polaroid {
     width: 400px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -129,7 +135,7 @@ body {
 }
 
 .polaroid:hover{
-    box-shadow: 0px 0px 5px 4px rgb(76, 185, 105);
+    box-shadow: 0px 0px 5px 4px black;
     z-index: 1;
 }
 
