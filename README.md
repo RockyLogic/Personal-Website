@@ -1,3 +1,2 @@
-# Personal-Website
-Website made with bootstrap.
-html,css,js
+# 📚Personal-Website
+Personal Website made with CSS, HTML, BootStrap 3
