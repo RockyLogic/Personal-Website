@@ -126,7 +126,7 @@ body {
     color: black;
 }
 .polaroid {
-    width: 400px;
+    width: 368px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 10%;
     display: inline-block;
@@ -142,7 +142,7 @@ body {
 
 .polaroidVisual{
     width: 100%;
-    height: 225px; 
+    height: 207px; 
     background-color: White;
 
 }
@@ -156,4 +156,11 @@ body {
     height: 100px;
     padding: 10px 30px;
     background-color: rgb(240, 240, 240);
+}
+
+.contact{
+    padding: 20px;
+    background-color: rgb(34, 34, 34);
+    color: rgb(134, 134, 134);
+    text-align: center;
 }
