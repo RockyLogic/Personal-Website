@@ -136,7 +136,7 @@ body {
 }
 
 .polaroid:hover{
-    box-shadow: 0px 0px 5px 4px black;
+    box-shadow: 0px 0px 5px 4px rgb(129, 129, 129);
     z-index: 1;
 }
 
@@ -155,7 +155,7 @@ body {
 .polaroidDiscription {
     height: 100px;
     padding: 10px 30px;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(245, 245, 245);
 }
 
 .contact{
